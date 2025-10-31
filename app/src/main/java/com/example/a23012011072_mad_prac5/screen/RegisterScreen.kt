@@ -62,7 +62,7 @@ fun RegisterUI(navController: NavController) {
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(20.dp)
+                    .padding(10.dp)
             ) {
 
                 // --- Name ---
@@ -72,7 +72,7 @@ fun RegisterUI(navController: NavController) {
                 ) {
                     Text(
                         "Name",
-                        fontSize = 14.sp,
+                        fontSize = 12.sp,
                         modifier = Modifier.weight(1f)
                     )
                     Box(modifier = Modifier.weight(2f)) {
@@ -87,7 +87,7 @@ fun RegisterUI(navController: NavController) {
                 ) {
                     Text(
                         "Phone Number",
-                        fontSize = 14.sp,
+                        fontSize = 12.sp,
                         modifier = Modifier.weight(1f)
                     )
                     Box(modifier = Modifier.weight(2f)) {
@@ -102,7 +102,7 @@ fun RegisterUI(navController: NavController) {
                 ) {
                     Text(
                         "City",
-                        fontSize = 14.sp,
+                        fontSize = 12.sp,
                         modifier = Modifier.weight(1f)
                     )
                     Box(modifier = Modifier.weight(2f)) {
@@ -117,7 +117,7 @@ fun RegisterUI(navController: NavController) {
                 ) {
                     Text(
                         "Email",
-                        fontSize = 14.sp,
+                        fontSize = 12.sp,
                         modifier = Modifier.weight(1f)
                     )
                     Box(modifier = Modifier.weight(2f)) {
@@ -132,7 +132,7 @@ fun RegisterUI(navController: NavController) {
                 ) {
                     Text(
                         "Password",
-                        fontSize = 14.sp,
+                        fontSize = 12.sp,
                         modifier = Modifier.weight(1f)
                     )
                     Box(modifier = Modifier.weight(2f)) {
